@@ -1,5 +1,6 @@
-console.log("Hello world")
-let unusedVar
+// Fixed linting errors
+const message = 'Hello world';
+console.log(message); // This is a warning (allowed)
 function test() {
-  return "double quotes"
+  return 'single quotes';
 }
